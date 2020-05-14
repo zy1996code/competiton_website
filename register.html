@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>陆港大学生数字媒体互动设计大赛</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<!--第一层——菜单开始-->
+<div class="menuTop" >
+  <nav class="navbar navbar-default navbar-fixed-top menu" role="navigation" style="height: 110px; border-bottom:none;">
+    <div class="container">
+      <!-- 移动显示 -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navbarMin" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <span class='lead' id="leading" "><a href="index.html">陆港大学生数字媒体互动设计大赛</a></span>
+        </div>
+      <!--按钮内容 -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right menubtn">
+            <li><a href="inform.html">关于大赛</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">竞赛内容 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="information.zip">大赛附件</a></li>
+                <li><a href="index.html#time">竞赛时间</a></li>
+              </ul>
+            <li class="active"><a href="register.html">竞赛报名</a></li>
+            <li><a href="index.html#FastAccess">快速通道</a></li>
+            
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+ </div> 
+<!--第一层——菜单结束-->
+
+<!--第二层报名表单开始-->
+    <div class="container" style="margin-top: 250px;margin-bottom: 500px;">
+      <h2 >报名并上传作品</h2>
+        <div class="form-group">
+            <label for="inputUsername" class=" control-label">用户名</label>
+               <input type="text" class="form-control" placeholder="请输入用户名" required autofocus>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword" >密码</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="请输入密码" required>
+        </div>
+        <div class="form-group">
+          <label for="inputPassword" >确认密码</label>
+          <input type="password" id="inputPassword" class="form-control" placeholder="请输入密码" required>
+        </div>
+        <div class="form-group">
+            <label for="inputUsername" class=" control-label">邮箱</label>
+               <input type="text" id="inputEmail" class="form-control" placeholder="请输入邮箱地址" required autofocus>
+        </div>
+        <div class="form-group">
+            <label for="inputUsername" class=" control-label">请输入真实姓名<font style="color:red;">*</font></label>
+               <input type="text" class="form-control" placeholder="请输入真实姓名" required autofocus>
+        </div>
+         <div class="form-group">
+            <label for="inputUsername" class=" control-label">请输入身份证号码（或护照号码）<font style="color:red;">*</font></label>
+               <input type="text" class="form-control" placeholder="请输入身份证号码（或护照号码）" required autofocus>
+         </div>
+        <div class="form-group">
+            <label for="inputUsername" class=" control-label">请选择地址<font style="color:red;">*</font></label>
+                <select name='pro'style='width='120px'>
+                  <option>请选择省份：</option>
+                  <option>香港特别行政区</option>
+                  <option>黑龙江省</option>
+                  <option>其他省份</option>
+                </select> <!--此处需要用js实现-->
+                <select name='city' style='width='120px'>
+                  <option>请选择市：</option>
+                  <option>哈尔滨市</option>
+                  <option>大庆市</option>
+                  <option>鸡西市</option>
+                  <option>鹤岗市</option>
+                  <option>其他市</option>
+                </select> <!--此处需要用js实现-->
+                <select name='school' style='width='120px'>
+                  <option>请选择学校：</option>
+                  <option>香港理工大学</option>
+                  <option>哈尔滨工业大学</option>
+                  <option>其他学校</option>
+                </select> <!--此处需要用js实现-->
+         </div>
+        <div class="form-group">
+            <label for="inputUsername" class=" control-label">请输入作品名称</label>
+               <input type="text"  class="form-control" placeholder="请输入作品名称" required autofocus>
+            <label >请选择作品类型： </label>
+            <label class="checkbox-inline" >
+                  <input type="checkbox" value="remember-me">交互广告设计与策划
+            </label>
+            <label class="checkbox-inline" >
+                  <input type="checkbox" value="remember-me">交互家居艺术（含装置艺术）
+            </label>
+            <label class="checkbox-inline" >
+                  <input type="checkbox" value="remember-me">交互式视频短片（含微电影）
+            </label>
+            <label class="checkbox-inline" >
+                  <input type="checkbox" value="remember-me">手机app设计
+            </label>
+        </div>
+          <div class="form-group" >
+            <input type="file" value="上传文件" style="display: inline-block;" />
+            <input type="reset" value="重置"  />
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> 记住密码
+            </label>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">报名并提交作品！</button>
+          </form> 
+      </form>    
+    </div> 
+<!--第二层报名表单结束-->
+
+<!--链接内容开始-->
+<div class="contLink" style="background: url(images/slide3.jpg) repeat-x">
+  <a href="https://weibo.com/5612875974/profile?rightmod=1&wvr=6&mod=personinfo&is_hot=1/" target="_blank"><img src="images/weibo.png" class="contLinkimg"></a>
+    <a href="#"><img src="images/qq.png" class="contLinkimg"></a>
+    <a href="#"><img src="images/weixin.png" class="contLinkimg"></a>
+    <a href="mailto:zy_os@icloud;.com"><img src="images/mail.png" class="contLinkimg"></a>
+</div>
+
+
+
+<!--页脚分享开始-->
+<div class="footer">版权所有 本页面由作者张禹强力支持</div>
+<!--页脚分享结束-->
+
+<!--回顶部动画开始-->
+</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+      });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;">
+  <span id="toTopHover" style="opacity: 1;"></span>
+</a>
+<!--回顶部动画结束-->
+
+</body>
+</html>

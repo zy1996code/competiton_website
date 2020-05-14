@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>陆港大学生数字媒体互动设计大赛</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+<!--第一层——菜单开始-->
+<div class="menuTop" >
+  <nav class="navbar navbar-default navbar-fixed-top menu" role="navigation" style="height: 110px; border-bottom:none;">
+    <div class="container">
+      <!-- 移动显示 -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navbarMin" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <span class='lead' id="leading" "><a href="index.html">陆港大学生数字媒体互动设计大赛</a></span>
+        </div>
+      <!--按钮内容 -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right menubtn">
+            <li><a href="inform.html">关于大赛</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">竞赛内容 <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="information.zip">大赛附件</a></li>
+                <li><a href="#time">竞赛时间</a></li>
+              </ul>
+            <li><a href="register.html">竞赛报名</a></li>
+            <li><a href="#FastAccess">快速通道</a></li>
+            
+            </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+ </div> 
+<!--第一层——菜单结束-->
+<!---第二层204开始-->
+<div class="jumbotron" style="text-align: center;margin-top: 300px;margin-bottom: 500px;">
+ 		 <h1>请深呼吸~</h1>
+  		 <p style="color: inherit;">204 No Content</p>
+		 <h2>程序员因不胜学习压力已经被抓走祭天！</h2>
+		 <p style="color: inherit;">不过我<strong>不会放弃</strong>这个页面，一定会赶在世界末日前写完的！！</p>
+     <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+               
+         </div>
+    </div>
+        <p style="margin-bottom: 10px;color: inherit;font-size: 14px;">当前开发进度为：87%；</p>
+
+        <p><a class="btn btn-primary btn-lg" href="index.html" role="button">回到首页</a></p>
+</div>
+<!---第二层204结束-->
+<!--第四层——快速通道结束-->
+
+<!--第五层——链接内容开始-->
+<div class="contLink" style="background: url(images/slide3.jpg) repeat-x">
+  <a href="https://weibo.com/5612875974/profile?rightmod=1&wvr=6&mod=personinfo&is_hot=1/" target="_blank"><img src="images/weibo.png" class="contLinkimg"></a>
+    <a href="#"><img src="images/qq.png" class="contLinkimg"></a>
+    <a href="#"><img src="images/weixin.png" class="contLinkimg"></a>
+    <a href="mailto:zy_os@icloud;.com"><img src="images/mail.png" class="contLinkimg"></a>
+</div>
+<!--第五层——链接内容结束-->
+
+<!--第六层——页脚分享开始-->
+<div class="footer">版权所有 本页面由作者张禹强力支持</div>
+<!--第六层——页脚分享结束-->
+
+<!--回顶部动画开始-->
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+        });
+      });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;">
+  <span id="toTopHover" style="opacity: 1;"></span>
+</a>
+<!--回顶部动画结束-->
+
+</body>
+</html>
